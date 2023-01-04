@@ -37,8 +37,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Fearless09/Loopstudios-landing-page)
+- Live Site URL: [Add live site URL here](https://fearless09.github.io/Loopstudios-landing-page/)
 
 ## My process
 
@@ -61,14 +61,6 @@ Working on this project I learnt a lot about Bootstrap and Bootstrap icon and it
 ### Continued development
 
 Working on this project showed me how great Bootstrap is and how great css library is, I'll like to continue working with Bootstrap libray and continue boosting my knowledge on JavaScript
-
-
-### Useful resources
-
-- [Bootstrap Framework](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-- [Bootstrap Icon](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 
 
 ## Author
