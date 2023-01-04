@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="./images/avatar.jpg" type="image/jpg">
+    <!-- Bootstrap For texting purpose -->
+    <!-- <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/icon/bootsrap-icon.css">
+    <script src="./dist/js/bootstrap.bundle.min.js" defer></script> -->
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        defer>
+        </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <!-- Customized CSS and JS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <script src="./javascript/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md navbar-dark py-3 position-relative">
+            <div class="container">
+                <h2 class="underlineHover z-index">
+                    <a href="#" class="navbar-brand mx-3" id="navbar-brand">loopstudios</a>
+                    <div class="mt-1 | underline"></div>
+                </h2>
+
+                <button class="navbar-toggler" id="hamburger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navmenu" aria-controls="#navmenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="menuOpen"></span>
+                    <span class="bi bi-x text-light" id="menuClose" data-hidden></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="navbar-item | underlineHover">
+                            <a href="#about" class="nav-link text-light px-3">About</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="navbar-item | underlineHover">
+                            <a href="#careers" class="nav-link text-light px-3">Careers</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="navbar-item | underlineHover">
+                            <a href="#events" class="nav-link text-light px-3">Events</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="navbar-item | underlineHover">
+                            <a href="#products" class="nav-link text-light px-3">Product</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="navbar-item | underlineHover">
+                            <a href="#support" class="nav-link text-light px-3">Support</a>
+                            <div class="underline"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br><br>
+
+        <!-- Immersive -->
+        <div class="container text-light my-5">
+            <div class="col-lg-6 border | immersive ">
+                <h1 class="w-auto p-4">
+                    IMMERSIVE EXPERIENCE THAT DELIVER
+                </h1>
+            </div>
+        </div>
+        <br><br><br>
+    </header>
+
+    <main class="my-5">
+        <!-- FIRST SECTION -->
+        <section class="text-secondary mb-5">
+            <div class="container position-relative">
+                <div class="col-lg-8 p-0 m-0 | interactiveContainer">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="./images/desktop/image-interactive.jpg" />
+
+                        <img src="./images/mobile/image-interactive.jpg" class="img img-fluid w-100" alt="">
+                    </picture>
+
+                </div>
+                <div class="text-center text-lg-start bg-white col-lg-6 p-5 p-lg-0 ps-lg-5 pt-lg-5  | interactiveText">
+                    <h1>
+                        THE LEADER IN INTERACTIVE VR
+                    </h1>
+
+                    <p class="lead">
+                        Founded in 2011, Loopstudios has been producing world-class virtual realityvprojects for some of
+                        the best companies around the globe. Our award-winningcreations have transformed businesses
+                        through digital experiences that bind to their brand.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECOND SECTION -->
+        <section>
+            <div class="container">
+                <div class="d-flex justify-content-center justify-content-lg-between align-items-center my-3">
+                    <h1>OUR CREATIONS</h1>
+                    <a href="#" class="d-none d-lg-block btn btn-dark btn-lg px-4">SEE ALL</a>
+                </div>
+                <!--  -->
+                <div class="row g-3 text-white | creationShowcase">
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-deep-earth.jpg" />
+
+                            <img src="./images/mobile/image-deep-earth.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">DEEP <br> EARTH</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-night-arcade.jpg" />
+
+                            <img src="./images/mobile/image-night-arcade.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">NIGHT <br> ARCADE</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-soccer-team.jpg" />
+
+                            <img src="./images/mobile/image-soccer-team.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">SOCCER <br> TEAM VR</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-grid.jpg" />
+
+                            <img src="./images/mobile/image-grid.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">THE <br> GRID</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <!-- Second Row -->
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-from-above.jpg"
+                                class="img img-fluid w-100" />
+
+                            <img src="./images/mobile/image-from-above.jpg" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">FROM UP <br> ABOVE VR</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-pocket-borealis.jpg"
+                                class="img img-fluid w-100" />
+
+                            <img src="./images/mobile/image-pocket-borealis.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">POCKET <br> BOREAILS</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-curiosity.jpg"
+                                class="img img-fluid w-100" />
+
+                            <img src="./images/mobile/image-curiosity.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">THE <br> CURIOSITY</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                    <div class="col-lg-3 position-relative">
+                        <picture>
+                            <source media="(min-width: 992px)" srcset="./images/desktop/image-fisheye.jpg"
+                                class="img img-fluid w-100" />
+
+                            <img src="./images/mobile/image-fisheye.jpg" class="img img-fluid w-100" alt="">
+                        </picture>
+
+                        <h1 class="px-4 py-3 position-absolute bottom-0">MAKE IT <br> FISHEYE</h1>
+                        <div class="position-absolute top-0 start-0 | overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-light py-5">
+        <div class="container">
+            <div class="d-lg-flex text-center text-lg-start justify-content-between">
+                <div class="d-flex flex-column align-items-center d-lg-block">
+                    <div class="underlineHover">
+                        <a href="#" class="btn btn-lg text-light py-0">loopstudios</a>
+                        <div class="mt-2 underline"></div>
+                    </div>
+
+                    <br>
+
+                    <ul class="d-flex px-0 | footerUL">
+                        <li class="my-2 | underlineHover">
+                            <a href="#about" class="text-light text-decoration-none px-3">About</a>
+                            <div class="mt-2 underline"></div>
+                        </li>
+                        <li class="my-2 | underlineHover">
+                            <a href="#careers" class="text-light text-decoration-none px-3">Careers</a>
+                            <div class="mt-2 underline"></div>
+                        </li>
+                        <li class="my-2 | underlineHover">
+                            <a href="#events" class="text-light text-decoration-none px-3">Events</a>
+                            <div class="mt-2 underline"></div>
+                        </li>
+                        <li class="my-2 | underlineHover ">
+                            <a href="#products" class="text-light text-decoration-none px-3">Product</a>
+                            <div class="mt-2 underline"></div>
+                        </li>
+                        <li class="my-2 | underlineHover">
+                            <a href="#support" class="text-light text-decoration-none px-3">Support</a>
+                            <div class="mt-2 underline"></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="d-flex pt-lg-0 justify-content-center justify-content-lg-end">
+                        <div class="underlineHover">
+                            <i class="bi bi-facebook h4 mx-2"></i>
+                            <div class="mt-2 underline"></div>
+                        </div>
+                        <div class="underlineHover">
+                            <i class="bi bi-twitter h4 mx-2"></i>
+                            <div class="mt-2 underline"></div>
+                        </div>
+                        <div class="underlineHover">
+                            <i class="bi bi-pinterest h4 mx-2"></i>
+                            <div class="mt-2 underline"></div>
+                        </div>
+                        <div class="underlineHover">
+                            <i class="bi bi-instagram h4 mx-2"></i>
+                            <div class="mt-2 underline"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="lead mt-2 mt-lg-4">&copy 2021 Loopstudios. All rights reserved</p>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <section class="bg-dark text-light text-center py-4">
+        <div class="container">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                class="text-decoration-none text-primary">Frontend Mentor</a>. Coded by <a href="#" target="_blank"
+                class="text-decoration-none text-primary">ajayitoheeb.</a>.
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
